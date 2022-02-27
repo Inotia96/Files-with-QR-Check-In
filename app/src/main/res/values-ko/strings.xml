@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">파일</string>
+    <string name="error"><b>오류:</b> 앱이 설치되지 않은것 같습니다.</string>
+    <string name="qr_kakaotalk">카카오 QR 체크인</string>
+    <string name="qr_naver">네이버 QR 체크인</string>
+    <string name="qr_toss">토스 QR 체크인</string>	
+    <string name="qr_pass_skt">Pass QR 체크인 (SKT)</string>	
+    <string name="qr_pass_lgu">Pass QR 체크인 (LGU)</string>	
+    <string name="qr_pass_kt">Pass QR 체크인 (KT)</string>	
+</resources>

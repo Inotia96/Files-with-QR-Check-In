@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Files</string>
+    <string name="error"><b>Error:</b> App not installed.</string>
+    <string name="qr_kakaotalk">Kakao QR CheckIn</string>
+    <string name="qr_naver">Naver QR CheckIn</string>
+    <string name="qr_toss">Toss QR CheckIn</string>	
+    <string name="qr_pass_skt">Pass QR CheckIn (SKT)</string>	
+    <string name="qr_pass_lgu">Pass QR CheckIn (LGU)</string>
+    <string name="qr_pass_kt">Pass QR CheckIn (KT)</string>	
+</resources>

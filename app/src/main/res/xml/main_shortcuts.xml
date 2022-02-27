@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:icon="@drawable/pass"
+        android:shortcutId="pass_lgu"
+        android:shortcutShortLabel="@string/qr_pass_lgu"
+		android:enabled="false"
+		android:shortcutDisabledMessage="@string/error">
+        <intent
+            android:targetPackage="com.lguplus.smartotp"
+            android:action="android.intent.action.VIEW"
+            android:data="uplusauth://widget" />
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/pass"
+        android:shortcutId="pass_kt"
+        android:shortcutShortLabel="@string/qr_pass_kt"
+		android:enabled="false"
+		android:shortcutDisabledMessage="@string/error">
+        <intent
+            android:targetPackage="com.kt.ktauth"
+            android:action="android.intent.action.VIEW"
+            android:data="ktpasslink20://requestqrcheckin" />
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/pass"
+        android:shortcutId="pass_skt"
+        android:shortcutShortLabel="@string/qr_pass_skt"
+		android:enabled="false"
+		android:shortcutDisabledMessage="@string/error">
+        <intent
+            android:targetPackage="com.sktelecom.tauth"
+            android:action="android.intent.action.VIEW"
+            android:data="tauthlink://widget" />
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/toss"
+        android:shortcutId="toss"
+        android:shortcutShortLabel="@string/qr_toss"
+		android:enabled="true"
+		android:shortcutDisabledMessage="@string/error">
+        <intent
+            android:targetPackage="viva.republica.toss"
+            android:action="android.intent.action.VIEW"
+            android:data="supertoss://qr-checkin?referrer=widget" />
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/naver"
+        android:shortcutId="naver"
+        android:shortcutShortLabel="@string/qr_naver"
+		android:enabled="true"
+		android:shortcutDisabledMessage="@string/error">
+        <intent
+            android:targetPackage="com.nhn.android.search"
+            android:action="android.intent.action.VIEW"
+            android:data="naversearchapp://opennadot?cardId=QRCheckIn&amp;character=brown&amp;nclick=nappwiq.qrcheckin&amp;referer=widget&amp;version=46" />
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/kakao"
+        android:shortcutId="kakao"
+        android:shortcutShortLabel="@string/qr_kakaotalk"
+		android:enabled="true"
+		android:shortcutDisabledMessage="@string/error">
+        <intent
+            android:targetPackage="com.kakao.talk"
+            android:action="android.intent.action.VIEW"
+            android:data="kakaotalk://qrcheckin" />
+    </shortcut>
+</shortcuts>
